@@ -1,0 +1,14 @@
+server:
+  port: 7001
+eureka:
+  client:
+    service-url:
+      defaultZone: http://root:ok@192.168.199.145:7001/eureka/
+    fetch-registry: false
+    register-with-eureka: false
+security:
+  basic:
+    enabled: true
+  user:
+    name: root
+    password: ok
